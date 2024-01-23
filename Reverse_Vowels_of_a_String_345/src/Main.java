@@ -1,8 +1,6 @@
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
-        String s = "race car";
+        String s = "race car leetcode";
         int end = s.length() - 1;
         int start = 0;
         StringBuilder answer = new StringBuilder(s);
