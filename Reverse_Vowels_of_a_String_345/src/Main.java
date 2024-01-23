@@ -25,8 +25,8 @@ public class Main {
         System.out.println("answer.toString() = " + answer.toString());
     }
 
-    static boolean isVowels(char vowels) {
-        switch (vowels) {
+    static boolean isVowels(char vowel) {
+        switch (vowel) {
             case 'a':
             case 'e':
             case 'i':
