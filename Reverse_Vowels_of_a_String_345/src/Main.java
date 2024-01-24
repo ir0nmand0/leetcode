@@ -6,11 +6,11 @@ public class Main {
         StringBuilder answer = new StringBuilder(s);
 
         while (start < end) {
-            while (start < end && isVowels(answer.charAt(start))) {
+            while (start < end && isNotVowels(answer.charAt(start))) {
                 ++start;
             }
 
-            while (start < end && isVowels(answer.charAt(end))) {
+            while (start < end && isNotVowels(answer.charAt(end))) {
                 --end;
             }
 
@@ -25,7 +25,7 @@ public class Main {
         System.out.println("answer.toString() = " + answer.toString());
     }
 
-    static boolean isVowels(char vowel) {
+    static boolean isNotVowels(char vowel) {
         switch (vowel) {
             case 'a':
             case 'e':
