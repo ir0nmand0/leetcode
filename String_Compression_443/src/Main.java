@@ -7,8 +7,7 @@ public class Main {
         System.out.println("compress(new char[]{'a'}) = " + compress(new char[]{'a'}));
         System.out.println("compress(new char[]{'a','b','b','b','b','b','b','b','b','b','b','b','b'}) = "
                 + compress(new char[]{'a','b','b','b','b','b','b','b','b','b','b','b','b'}));
-        System.out.println("" +
-                + compress(new char[]{'x','7','7','2','2','2','f','\'','\'',
+        System.out.println(compress(new char[]{'x','7','7','2','2','2','f','\'','\'',
                         '\'','\'','}','=','l','l','+','_','_',':',':',':','o',
                         'u','u','l','X','4','n','n','n','y','y','Z','\'','g','q',
                         ',',',','Y',':','w','.','q',')',')','0','0','0','0','{','E',

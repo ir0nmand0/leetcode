@@ -1,11 +1,11 @@
 
-y	java:S127-"XRefactor the code in order to not assign to this loop counter from within the loop body.(°ñÆõþÿÿÿÿ8 åÁºÕ1
+y	java:S127,"XRefactor the code in order to not assign to this loop counter from within the loop body.(°ñÆõþÿÿÿÿ8 åÁºÕ1
 7
 java:S1220""Move this file to a named package.8 åÁºÕ1
 G	java:S106"+Replace this use of System.out by a logger.(ÜªÓâ8„æÁºÕ1
 L	java:S106"+Replace this use of System.out by a logger.(©¦À²ûÿÿÿÿ8…æÁºÕ1
 L	java:S106"+Replace this use of System.out by a logger.(£ ì»ûÿÿÿÿ8…æÁºÕ1
-G	java:S106
-"+Replace this use of System.out by a logger.(¶“ƒ¤8…æÁºÕ1
+L	java:S106
+"+Replace this use of System.out by a logger.(¤ÐÁ‰ÿÿÿÿÿ8…æÁºÕ1
 O
 java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8…ðÇºÕ1
