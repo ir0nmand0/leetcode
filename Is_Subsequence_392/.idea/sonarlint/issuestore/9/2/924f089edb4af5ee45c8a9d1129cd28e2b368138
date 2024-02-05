@@ -1,9 +1,10 @@
 
 i
-java:S1192"GDefine a constant instead of duplicating this literal "ahbgdc" 3 times.(ùïºŞÿÿÿÿÿ8ÀØî‹Õ1
+java:S1192"GDefine a constant instead of duplicating this literal "ahbgdc" 4 times.(ùïºŞÿÿÿÿÿ8Á²ÈÛ×1
 7
-java:S1220""Move this file to a named package.8ÀØî‹Õ1
-L	java:S106"+Replace this use of System.out by a logger.(ùïºŞÿÿÿÿÿ8ÎØî‹Õ1
-G	java:S106"+Replace this use of System.out by a logger.(Âª÷Î8ÏØî‹Õ1
-L	java:S106"+Replace this use of System.out by a logger.(ùïºŞÿÿÿÿÿ8ÏØî‹Õ1
-L	java:S106"+Replace this use of System.out by a logger.(ÀÛ×Âúÿÿÿÿ8ĞØî‹Õ1
+java:S1220""Move this file to a named package.8Á²ÈÛ×1
+L	java:S106"+Replace this use of System.out by a logger.(ùïºŞÿÿÿÿÿ8Ë²ÈÛ×1
+G	java:S106"+Replace this use of System.out by a logger.(Âª÷Î8Í²ÈÛ×1
+L	java:S106"+Replace this use of System.out by a logger.(ùïºŞÿÿÿÿÿ8Í²ÈÛ×1
+L	java:S106"+Replace this use of System.out by a logger.(ÀÛ×Âúÿÿÿÿ8Í²ÈÛ×1
+L	java:S106"+Replace this use of System.out by a logger.( ôüùÿÿÿÿ8Î²ÈÛ×1

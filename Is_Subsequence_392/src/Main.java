@@ -4,22 +4,31 @@ public class Main {
         System.out.println("isSubsequence(\"axc\", \"ahbgdc\") = " + isSubsequence("axc", "ahbgdc"));
         System.out.println("isSubsequence(\"abc\", \"ahbgdc\") = " + isSubsequence("abc", "ahbgdc"));
         System.out.println("isSubsequence(\"aaaaaa\", \"bbaaaa\") = " + isSubsequence("aaaaaa", "bbaaaa"));
+        System.out.println("isSubsequence(\"\", \"ahbgdc\") = " + isSubsequence("", "ahbgdc"));
     }
 
     public static boolean isSubsequence(String s, String t) {
-        int count = 0;
-        int point = 0;
+        if (s.isEmpty()) {
+            return true;
+        } else if (t.isEmpty()) {
+            return false;
+        }
 
-        for (int i = 0; i < s.length(); i++) {
-            for (int j = point; j < t.length(); ++j) {
-                if (s.charAt(i) == t.charAt(j)) {
-                    ++count;
-                    point = j + 1;
-                    break;
+        final char[] s1 = s.toCharArray();
+        final char[] t1 = t.toCharArray();
+
+        int count = 0;
+
+        for (int i = 0; i < t1.length; ++i) {
+            if (t1[i] == s1[count]) {
+                if (s1.length - 1 == count) {
+                    return true;
                 }
+
+                ++count;
             }
         }
 
-        return count == s.length();
+        return count == s1.length;
     }
 }
