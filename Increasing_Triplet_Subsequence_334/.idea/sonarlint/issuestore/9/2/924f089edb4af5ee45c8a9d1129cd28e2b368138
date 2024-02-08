@@ -1,9 +1,0 @@
-
-7
-java:S1220""Move this file to a named package.8ß’Š’Ô1
-G	java:S106	"+Replace this use of System.out by a logger.(Â¢»8æ’Š’Ô1
-G	java:S106
-"+Replace this use of System.out by a logger.(¹š œ8ç’Š’Ô1
-L	java:S106"+Replace this use of System.out by a logger.(°Ğæ¼ıÿÿÿÿ8ç’Š’Ô1
-O
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8 ÀŠ’Ô1

@@ -1,9 +1,0 @@
-
-t	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(·¢•…8†”Ù×1
-7
-java:S1220""Move this file to a named package.8åÜ“Ù×1
-G	java:S106"+Replace this use of System.out by a logger.(–ƒí‡8ïÜ“Ù×1
-G	java:S106"+Replace this use of System.out by a logger.(Ï¬´¹8ïÜ“Ù×1
-G	java:S106"+Replace this use of System.out by a logger.(˜ÀÄë8ğÜ“Ù×1
-]	java:S125
-"<This block of commented-out lines of code should be removed.(‘ÜÂ´øÿÿÿÿ8‚…ªÙ×1
